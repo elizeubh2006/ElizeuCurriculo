@@ -1,0 +1,9 @@
+// Animations
+AOS.init({
+  anchorPlacement: 'top-left',
+  duration: 1000
+});
+
+$(document).ready(function(){
+  $("#idade").textContent = ((new Date().getFullYear()) -1980) + " ";
+});
